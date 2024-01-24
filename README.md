@@ -2,4 +2,4 @@
 Репозиторий дипломной работы на курсе Инженер по тестированию Плюс
 
 # Результат выполенения теста: 
-<a href="https://ibb.co/M77XTy3"><img src="https://i.ibb.co/jDDpK91/2024-01-24-22-04-38.png" alt="2024-01-24-22-04-38" border="0"></a>
+<a href="https://ibb.co/ctX5ydC"><img src="https://i.ibb.co/0ZVNn3F/2024-01-24-22-07-03.png" alt="2024-01-24-22-07-03" border="0"></a>
