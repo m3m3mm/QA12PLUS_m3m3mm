@@ -8,5 +8,4 @@ def post_new_order(order_body):  # функция POST-запроса с соз�
 
 
 def getting_order_data(track):
-    response = requests.get(config.URL + config.GET_ORDER_DATA_PATH, params=track)
-    return response.status_code
+    return requests.get(config.URL + config.GET_ORDER_DATA_PATH, params=track)
