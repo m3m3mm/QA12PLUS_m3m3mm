@@ -4,13 +4,9 @@ import requests
 
 
 def post_new_order(order_body):  # функция POST-запроса с созданием заказа
-    track = requests.post(config.URL + config.ORDER_CREATE_PATH, json=order_body)
-    return track
+    return requests.post(config.URL + config.ORDER_CREATE_PATH, json=order_body)
 
 
 def getting_order_data(track):
     response = requests.get(config.URL + config.GET_ORDER_DATA_PATH, params=track)
     return response.status_code
-
-
-post_new_order(data.order_body_full)
